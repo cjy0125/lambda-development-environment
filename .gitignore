@@ -1,10 +1,5 @@
 __pycache__
 .vagrant
-chef/cookbooks/*
-!chef/cookbooks/devops
-!chef/cookbooks/devop
-!chef/cookbooks/devops
-!chef/cookbooks/devops
 chef/local-mode-cache
 chef/nodes
 chef/chef_guid
