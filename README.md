@@ -13,8 +13,8 @@ Please install and setup following tools for the preparation
 
 ## [In Vagrant] Working directory and permissions
 The working directory is `/vagrant`, and due to the docker requires specified permission to execute, you can 
-    1. switch to root user `sudo su -` 
-    2. or add `sudo` in front of all further commands.
+1. switch to root user `sudo su -` 
+2. or add `sudo` in front of all further commands.
 
 ## [In Vagrant] Build instructions
 Ecexute `./build.sh` and then pack all files under src
