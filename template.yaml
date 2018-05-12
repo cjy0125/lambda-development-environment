@@ -1,0 +1,19 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: 'AWS::Serverless-2016-10-31'
+Description: AWS Lambda function.
+Resources:
+  # Lambda Function name
+  SamExample:
+    Type: 'AWS::Serverless::Function'
+    Properties:
+      # Execute path
+      Handler: lambda_function.lambda_handler
+      Runtime: python3.6
+      CodeUri: src/
+      Description: A AWS Lambda example.
+      MemorySize: 128
+      Timeout: 300
+      # Assign environments for the Lambda function
+      Environment:
+        Variables:
+          WORKENV: test
